@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf8">
+		<script src="https://use.fontawesome.com/744123f5cd.js"></script>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" rel="stylesheet">
+		<link href="one.css" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<ul class="container">
+				<li class="logo"><a href="#">Хабрахабр</a></li>
+				<li><a href="#">Публикации</a></li>
+				<li><a href="#">Хабы</a></li>
+				<li><a href="#">Компании</a></li>
+				<li><a href="#">Пользователи</a></li>
+				<li><a href="#">Песочница</a></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li><i class="fa fa-search" aria-hidden="true"></i></li>
+				<li><input class="enter" type="button" value="Войти"></li>
+				<li><input class="registr" type="button" value="Регистрация"></li>
+			</ul>
+		</header>
+		<div class="container-1">
+			<div class="user-info"><img src="avatar.png" alt="photo_user"></div>
+			<div class="user-info"><p class="name">Serhio Magpie<p class="info">Пользователь</div>
+			<div class="user-info"><p><a href="#">@SerDIDG</a><p></div>
+			<div class="user-info"><p class="karma">11,0<p class="info">карма</div>
+			<div class="user-info"><p class="rating">0,0<p class="info">рейтинг</div>
+		</div>
+		<div class="container-2">
+			<div class="properti mars">
+				<div class="head">
+					<div class="menu"><p><i class="fa fa-user" aria-hidden="true"></i><p>Профиль</div>
+					<div class="menu public-color"><p>2<p>Публикации</div>
+					<div class="menu"><p>828<p>Комментарии</div>
+					<div class="menu"><p>99<p>Избранное</div>
+					<div class="menu"><p>5<p>Подписчики</div>
+				</div>
+				<div class="properti"><article><h2>Разработка → Выравниваем блок по центру страницы</h2>
+					<p>Очень часто стоит задача выровнять блок по центру страницы / экрана, да ещё и так, чтобы без ява-скрипта, без задания жёстких размеров или отрицательных отступов, ещё чтобы и скроллбары работали у родителя, если блок превышает его размеры. В сети ходят достаточно много однообразных примеров как выровнять блок по центру экрана. Как правило большинство из них основаны на одних принципах.
+					<p>Ниже представлены основные способы решения задачи, их плюсы и минусы. Чтобы понимать суть примеров, рекомендую уменьшить высоту / ширину окошка Result в примерах по указанным ссылкам.
+					<h3>Вариант 1. Отрицательный отступ.</h3>
+					<p>Позиционируем <b>блок</b> атрибутами top и left на 50%, и заранее зная высоту и ширину блока, задаём отрицательный margin, который равен половине размера <b>блока</b>. Огромным минусом данного варианта является то, что нужно подсчитывать отрицательные отступы. Так же <b>блок</b> не совсем корректно ведёт себя в окружении скроллбаров — он попросту обрезается так как имеет отрицательные отступы.</p> 
+				</div>
+			</div>
+			<div class="advert">
+				<div class="aside properti">Реклама</div>
+				<div class="aside properti">Реклама-2</div>
+			</div>
+		</div>	
+	</body>
+</html>

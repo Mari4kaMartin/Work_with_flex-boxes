@@ -1,0 +1,93 @@
+body {
+	margin: 0px 120px;
+}
+.container {
+	display: flex;
+	border-bottom: 1px solid #A9A9A9;
+}
+.logo a {
+	font-weight: 900;
+	text-decoration: none;
+	color: #000000;
+}
+a {
+	text-decoration: none;
+	color: #A9A9A9;
+}
+li {
+	list-style-type: none;
+	padding: 15px 15px;
+	font-weight: 700;
+}
+i {
+	color: #A9A9A9;
+}
+.enter {
+	background: #FFFFFF;
+	border-radius: 8px;
+	border: 1px solid #A9A9A9;
+	color: #A9A9A9;
+}
+.registr {
+	background: #5F9EA0;
+	border: none;
+	border-radius: 8px;
+	color: #FFFFFF;
+}
+.container-1 {
+	display: flex;
+}
+.user-info {
+	margin: 0 10px;
+}
+.info {
+	color: #A9A9A9;
+}
+.karma {
+	color: #6B8E23;
+	font-weight: 700;
+}
+.rating {
+	color: #9932CC;
+	font-weight: 700;
+}
+.name {
+	font-weight: 700;
+}
+.container-2 {
+	display: flex;
+}
+.properti {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 10px;
+}
+.menu {
+	padding: 5px 40px;
+	background-color: #F5F5F5;
+	border: 1px solid #DCDCDC;
+	text-align: center;
+	flex-grow: 1;
+}
+.public-color {
+	background-color: #ADD8E6;
+	border: none;
+}
+.head {
+	display: flex;
+	flex-direction: row;
+}
+.advert {
+	display: flex;
+	flex-direction: column;
+}
+.aside {
+	margin-left: 20px;
+	margin-bottom: 15px;
+	width: 280px;
+	height: 250px;
+	border: 2px solid black;
+	flex: 1;
+}
+
